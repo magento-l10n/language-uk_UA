@@ -1,5 +1,6 @@
 {
     "name": "community-engineering/language-uk_ua",
+    "version": "0.0.1",
     "type": "magento2-language",
     "description": "uk_UA language package.",
     "license": [
@@ -14,7 +15,7 @@
     },
     "autoload": {
         "files": [
-          "registration.php"
+            "registration.php"
         ]
     }
 }
