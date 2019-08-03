@@ -2561,6 +2561,7 @@ Password:,Пароль:
 "We have received a request to change the following information associated with your account at %store_name: email.","Ми отримали прохання про зміну наступної інформації, пов'язаної з Вашим обліковим записом на %store_name: електронна пошта."
 "Your %store_name email and password has been changed","Ваші %store_name електронну пошту та пароль було змінено"
 "We have received a request to change the following information associated with your account at %store_name: email, password.","Ми отримали прохання про зміну наступної інформації, пов'язаної з Вашим обліковим записом на %store_name: пароль."
+"There was recently a request to change the password for your account.","Ми отримали запит на скидання пароля для вашого акаунту."
 "Are you sure you want to delete this address?","Ви впевнені, що хочете видалити цю адресу?"
 Weak,Слабкий
 Medium,Середній
