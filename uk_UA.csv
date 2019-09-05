@@ -20,6 +20,16 @@ Custom,Користувацький
 "You don't have permissions to save this item in scope of current store view. Please, switch to allowed store view","Ви не маєте дозволу зберегти цей елемент у поточні крамниці. Будь ласка, переключіться на дозволену крамницю"
 "More permissions are needed to delete the ""%1"" item.","Додаткові дозволи необхідні для видалення елемента ""%1""."
 "This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Цей об'єкт має бути закріплений за крамницею. Перевірте це та повторіть спробу."
+"Orders can only be completed in an active store. Verify the store and try again.","Замовлення можуть бути завершені тільки в активному магазині. Перевірте магазин і спробуйте ще раз."
+"This item needs to be assigned to a store view. Assign item and try again.","Цей елемент має бути призначений до магазину. Перевірте чи призначений елемент та повторіть спробу."
+"More permissions are needed to save this item.","Додаткові дозволи необхідні для збереження цього елемента."
+"More permissions are needed to delete this item.","Додаткові дозволи необхідні для видалення цього елемента."
+"More permissions are needed to view this item.","Додаткові дозволи необхідні для перегляду цього елемента."
+"At least one website or store group needs to be selected. Select and try again.","Принаймні один веб-сайт або група магазинів потрібно вибрати. Виберіть та повторіть спробу."
+"More permissions are needed to set All Scopes to a Role.","Додаткові дозволи необхідні для встановлення ""Всі області"" для ролі."
+"The ""%1"" website ID is incorrect. Verify the website ID and try again.","""%1"" це хибний ID для веб-сайту. Перевірте ID та повторіть спробу."
+"The ""%1"" store ID is incorrect. Verify the store ID and try again.","""%1"" це хибний ID для магазину. Перевірте ID та повторіть спробу."
+"More permissions are needed to save this setting.","Додаткові дозволи необхідні для збереження цього налаштування."
 "Read Details","Читати подробиці"
 "Mark as Read","Позначити як прочитане"
 "Are you sure?","Ви впевнені?"
@@ -208,6 +218,13 @@ File,Файл
 "Order by SKU Template","Шаблон замовлення за артикулом"
 "SKU not found in catalog.","Артикул не знайдено в каталозі."
 "This file needs to be in .csv format.","Цей файл має бути у .csv форматі."
+"This customer couldn't be found. Verify the customer and try again.","Цей клієнт не знайдений. Перевірте клієнта і спробуйте ще раз."
+"This store couldn't be found. Verify the store and try again.","Цей магазин не знайдений. Перевірте магазин і спробуйте ще раз."
+"An error occurred. For details, see the error log.","Виникла помилка. Деталі дивіться в журналі помилок."
+"The ordered item needs to be loaded. Load the item and try again.","Замовлений товар повинен бути завантажений. Завантажте товар і спробуйте ще раз."
+"The wish list item ID needs to be received. Set the ID and try again.","Елемент із список побажань повинен бути отриманий. Завантажте елемент і повторіть спробу."
+"The wish list item needs to be loaded. Load the item and try again.","Елемент із списку побажань повинен бути завантажений. Завантажте елемент і повторіть спробу."
+"The file is corrupt and can't be used.","Файл пошкоджений і не може використовуватися."
 "Please correct the data sent.","Будь ласка, виправте відправлені дані."
 "Entity type model '%1' is not found","Модель типу об'єкта '%1' не знайдено"
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Модель типу об\'єкта повинна бути екземпляром \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType"
@@ -563,6 +580,7 @@ Order,Замовлення
 "Next steps","Наступний крок"
 "If you think this is an error, try signing out and signing in again.","Якщо ви думаєте, що це помилка, спробуйте вийти та ввійти знову."
 "Contact a system administrator or store owner to gain permissions.","Зверніться до системного адміністратора або власника магазину, щоб отримати права доступу."
+"Return to ","Повернутися до "
 "previous page","попередня сторінка"
 "Welcome, please sign in","Ласкаво просимо, будь-ласка увійдіть"
 Username,"Ім'я користувача"
@@ -644,6 +662,7 @@ Content,Вміст
 Elements,Елементи
 Design,Дизайн
 Schedule,Розклад
+"Content translation",Переклад
 Settings,Налаштування
 Attributes,Атрибути
 "Other Settings","Інші Налаштування"
@@ -786,7 +805,9 @@ Tags,Мітки
 Pagination,Пагінація
 "How many links to display at once.","Кількість посилань для одночасного відображення."
 "Pagination Frame","Кадрування Пагінації"
+"If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.","Якщо поточне положення кадрування не покриває всі можливі сторінки, буде надаватися посилання на поточне положення плюс/мінус це значення."
 "Pagination Frame Skip","Пропустити Кадрування Пагінації"
+"Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.","Альтернативний текст для попереднього посилання у меню пагінації. Якщо пусто, зображення стрілки за замовчування буде використовуватися."
 "Anchor Text for Previous","Anchor Text для Попереднього"
 "Anchor Text for Next","Anchor Text для Наступного"
 "Theme Name","Назва теми"
