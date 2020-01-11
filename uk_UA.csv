@@ -3131,6 +3131,11 @@ Warning,Попередження
 Translate,Перекласти
 "Please enter at least {0} words.","Будь ласка, введіть менше {0} слів."
 "Please enter between {0} and {1} words.","Будь ласка, введіть від {0} до {1} слів."
+"Please specify a valid phone number","Будь ласка, введіть дійсний номер"
+"Please specify a valid mobile number","Будь ласка, введіть дійсний мобільний номер"
+"Please enter at least {0} characters","Будь ласка, введіть принаймні {0} символів"
+"Please remove invalid characters: {0}.","Будь ласка, видаліть неприпустимі символи: {0}."
+"Please enter a valid IP v4 address.","Будь ласка введіть правильну IP-адресу v4."
 "Please select one of the options above.","Будь ласка, виберіть одну з наведених вище опцій."
 "Please select a file.","Будь ласка, виберіть файл."
 "Please select one of the options.","Будь ласка, виберіть одну з опцій."
