@@ -3162,7 +3162,9 @@ description,опис
 "<a href=url_customer_service>Customer Service</a>","<a href=url_customer_service>Обслуговування Клієнтів</a>"
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Години роботи:<br /><span class=""no-link"">%store_hours</span>."
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Якщо у вас є питання стосовно вашого замовлення, ви можете написати нам на <a href=""mailto:%store_email"">%store_email</a>."
+"Your Shipment #%shipment_id for Order #%order_id","Ваша доставка #%shipment_id за замовлення #%order_id"
 "About Us","Про нас"
+"Customer Service","Обслуговування клієнтів"
 "Backup options","Опції Резервної Копії"
 Warning,Попередження
 "Insert Widget...","Вставлення елемента керування..."
