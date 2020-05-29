@@ -2520,7 +2520,12 @@ save,зберегти
 "Enter the comment and try again.","Введіть коментар та повторіть спробу."
 "The email address is invalid. Verify the email address and try again.","Вказана адреса електронної пошти некоректна. Будь ласка, перевірте уважніше введену Вами адресу електронної пошти та повторіть спробу."
 "Allow Cookies","Дозволити файли cookie"
+"Default Cookie Settings","Типові параметри Cookie"
 "Cookie Lifetime","Час життя cookie-файлу"
+"Use HTTP Only","Використовувати лише HTTP"
+"Cookie Restriction Mode","Режим обмеження Cookie"
+"'Invalid domain name: ' .","'Недопустиме доменне ім'я: ' ."
+"'Invalid cookie lifetime: ' .","'Недопустимий час життя cookie: ' ."
 Daily,Щоденно
 Weekly,Щотижневий
 Monthly,Щомісячно
@@ -3177,11 +3182,13 @@ Warning,Попередження
 Translate,Перекласти
 "Please enter at least {0} words.","Будь ласка, введіть менше {0} слів."
 "Please enter between {0} and {1} words.","Будь ласка, введіть від {0} до {1} слів."
+"Letters, numbers, spaces or underscores only please","Будь ласка, лише букви, цифри, пробіли чи підкреслення"
 "Please specify a valid phone number","Будь ласка, введіть дійсний номер"
 "Please specify a valid mobile number","Будь ласка, введіть дійсний мобільний номер"
 "Please enter at least {0} characters","Будь ласка, введіть принаймні {0} символів"
 "Please remove invalid characters: {0}.","Будь ласка, видаліть неприпустимі символи: {0}."
 "Please enter a valid IP v4 address.","Будь ласка введіть правильну IP-адресу v4."
+"Please enter a valid IP v6 address.","Будь ласка введіть правильну IP-адресу v6."
 "Please select one of the options above.","Будь ласка, виберіть одну з наведених вище опцій."
 "Please select a file.","Будь ласка, виберіть файл."
 "Please select one of the options.","Будь ласка, виберіть одну з опцій."
