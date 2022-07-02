@@ -2080,11 +2080,20 @@ Manually,Вручну
 "Static Blocks","Статичні блоки"
 "Add New Block","Додати новий блок"
 "Delete Block","Видалити блок"
+"Save & Duplicate","Зберегти та продублювати"
 Identifier,Ідентифікатор
 "Manage Pages","Управління сторінками"
 "Add New Page","Додати нову сторінку"
 "Delete Page","Видалити сторінку"
+Created,Створено
+Modified,Змінено
+"Media Storage",Медіасховище
 "Delete Folder","Видалити папку"
+"Delete Selected","Видалити вибране"
+"Create Folder","Створити теку"
+"New Folder Name:","Назва нової теки:"
+"Are you sure you want to delete this folder?","Ви справді хочете видалити цю теку?"
+"Are you sure you want to delete this file?","Ви впевнені, що хочете видалити цей файл?"
 "Images (%1)","Зображення (%1)"
 "You deleted the block.","Ви видалили блок."
 "We can't find a block to delete.","Ми не можемо знайти блок для видалення."
