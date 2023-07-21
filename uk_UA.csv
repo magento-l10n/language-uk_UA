@@ -410,7 +410,7 @@ options,опції
 "Select all","Вибрати все"
 "Deselect all","Скасувати виділення"
 "%s of %s selected","%s з %s вибрано"
-"B2B Features","B2B можливості"
+"B2B Features","Функції B2B"
 "Invalid Form Key. Please refresh the page.","Недійсний Ключ Форми. Будь-ласка, оновіть сторінку."
 "You entered an invalid Secret Key. Please refresh the page.","Ви ввели недійсний Секретний Ключ. Будь-ласка, оновіть сторінку."
 "Cache Storage Management","Управління Сховищем Кешу"
@@ -498,7 +498,7 @@ General,Загальні
 "New Store","Новий Магазин"
 "Edit Store View","Редагувати Вид Магазину"
 "New Store View","Новий Вид Магазину"
-"Store Information","Інформація Магазину"
+"Store Information","Інформація про магазин"
 "Web Site",Веб-сайт
 Name,Назва
 Code,Код
@@ -728,25 +728,25 @@ Developer,Розробник
 "Static Files Settings","Налаштування Статичних Файлів"
 "Sign Static Files","Підписати Статичні Файли"
 "Country Options","Опції Країни"
-"Allow Countries","Дозволити Країни"
-"Default Country","Країна за Замовчуванням"
+"Allow Countries","Дозволені країни"
+"Default Country","Країна за замовчуванням"
 "European Union Countries","Країни Європейського Союзу"
-"Top destinations","Найпопулярніші напрями"
+"Top destinations","Основні напрямки"
 "Locale Options","Опції Локалізації"
 Timezone,"Часовий пояс"
 Locale,Локалізація
 "First Day of Week","Перший день тижня"
 "Weekend Days","Вихідні дні"
-"Store Name","Назва Магазину"
-"Store Phone Number","Номер Телефону Магазину"
-"Store Hours of Operation","Часи Роботи Магазину"
+"Store Name","Назва магазину"
+"Store Phone Number","Номер телефону магазину"
+"Store Hours of Operation","Графік роботи магазину"
 Country,Країна
 Region/State,Регіон/Штат
 "ZIP/Postal Code","Поштовий індекс"
 City,Місто
-"Street Address","Адреса (вулиця, номер будинку та квартири...)"
+"Street Address",Вулиця
 "Street Address Line 2","Вулиця 2"
-"VAT Number","Номер VAT"
+"VAT Number","Номер платника ПДВ"
 "Single-Store Mode","Режим Єдиного Магазину"
 "Enable Single-Store Mode","Увімкнути Режим Єдиного Магазину"
 "This setting will not be taken into account if system has more than one store view.","Це налаштування не буде прийнете до уваги, якщо система має більше одного виду магазину."
@@ -778,11 +778,12 @@ Security,Безпека
 "Please enter at least 60 and at most 31536000 (one year).","Будь ласка, введіть від 60 до 31536000 (на рік)."
 "Enable Charts","Увімкнути Діаграми"
 Web,Веб
-"Url Options","Опції Url-адреси"
-"Add Store Code to Urls","Додати Код Крамниці до URL-адрес"
-"Auto-redirect to Base URL","Автоматичне Перенаправлення до Базової URL-адреси"
-"Search Engine Optimization","Пошукова оптимізація (SEO)"
-"Use Web Server Rewrites","Використовувати Перезаписи Веб Серверу"
+"Url Options","Параметри Url"
+"Add Store Code to Urls","Додавати код магазину до Url"
+"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color:red"">Попередження!</strong> При використанні коду магазину в URL, в деяких випадках система може не працювати належним чином, якщо в сервісах третіх сторін (наприклад, PayPal тощо) вказані URL без коду магазину."
+"Auto-redirect to Base URL","Автоматичне перенаправлення на базовий URL"
+"Search Engine Optimization","Оптимізація для пошукових систем"
+"Use Web Server Rewrites","Використовувати Web Server Rewrites"
 "Base URLs","Базові URL-адреси"
 "Base URL","Базова URL-адреса"
 "Specify URL or {{base_url}} placeholder.","Вкажіть URL-адресу або {{base_url}} заповнювач."
@@ -815,6 +816,7 @@ Description,Опис
 Tags,Мітки
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">Помилка 404</h1><p>Сторінку не знайдено.</p>"
 "Default Theme","Типова тема"
+"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Якщо не вказано значення, буде використане системне за замовчуванням. Системне значення за замовчуванням може бути змінено сторонніми розширеннями."
 "Applied Theme","Застосована тема"
 "Design Rule","Правило дизайну"
 "User Agent Rules","Правила користування"
@@ -832,7 +834,9 @@ Pagination,Пагінація
 "Maximum Width","Максимальна ширина"
 "Maximum allowed width for uploaded image.","Максимальна дозволена ширина для завантаженого зображення."
 "Maximum Height","Максимальна висота"
-"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Якщо не вказати жодного значення, буде використане системне за замовчуванням. Системне за замовчуванням може бути змінен сторонніми екстеншинами."
+"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).","<strong style=""color:red"">Попередження!</strong> При використанні коду магазину в URL, в деяких випадках система може не працювати належним чином, якщо в сервісах третіх сторін (наприклад, PayPal тощо) вказані URL без коду магазину."
+"I.e. redirect from http://example.com/store/ to http://www.example.com/store/","Наприклад, перенаправлення з http://example.com/store/ на http://www.example.com/store/"
+"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Якщо не вказано значення, буде використане системне за замовчуванням. Системне значення за замовчуванням може бути змінено сторонніми розширеннями."
 "Save &amp; Continue","Зберегти та продовжити"
 "Save &amp; Close","Зберегти та закрити"
 "Save &amp; New","Зберегти та створити"
@@ -2013,6 +2017,7 @@ Priority,Пріоритет
 "End Time","Час завершення"
 "Catalog Price Rules","Правила цін каталога"
 "Remove Catalog Price Rule from Campaign","Видалити правило цін каталога з кампанії"
+"Move to Another Campaign","Перемістити в іншу кампанію"
 "Catalog Advanced Search","Каталог розширеного пошуку"
 "Advanced Search Results","Результати розширеного пошуку"
 "Search Weight","Пошук за вагою"
@@ -2035,10 +2040,12 @@ Relevance,Релевантність
 "Maximum Query Length","Максимальна довжина запиту"
 "Rebuild Catalog product fulltext search index","Перебудувати індекс повнотекстового пошуку каталогу товарів"
 Preview,Перегляд
+"Set Product as New","Визначити товар як новий"
 "Store View:","Вид Магазину:"
 "Sort Products By","Сортувати товари за"
 "Default Product Sorting","Типове сортування товарів"
 "Use Parent Category Settings","Використовувати параметри батьківської категорії"
+"New Theme","Нова тема"
 "The category will be removed from the update and all scheduled changes will be lost.","Категорію буде видалено з оновлення і всі заплановані зміни буде втрачено."
 "Remove Product from Update","Видалити товар з оновлення"
 "The product will be removed from the update and all scheduled changes will be lost.","Товар буде видалено з оновлення і всі заплановані зміни буде втрачено."
@@ -2046,6 +2053,8 @@ Path,Шлях
 "Create Permanent Redirect for old URL","Створити постійну переадресацію для старих URL"
 "Invalid URL key","Недопустимий ключ URL-адреси"
 "You need to refresh the cache.","Вам необхідно оновити кеш."
+"List of Products","Список товарів"
+"Products Grid Template","Шаблон сітки товарів"
 "Invalid method: %1","Помилковий метод: %1"
 "My Cart (1 item)","Кошик (1 шт)"
 "My Cart (%1 items)","Кошик (%1 пунктів)"
@@ -2177,6 +2186,7 @@ edit,редагувати
 "We'll send your order confirmation here.","Ми надішлемо Вам підтвердження замовлення."
 Payment,Оплата
 "Not yet calculated","Ще не підраховано"
+"We received your order!","Ми отримали ваше замовлення!"
 "Thank you for your purchase!","Дякуємо за покупку!"
 "Item in Cart","Позиція в кошику"
 "Items in Cart","Позицій(ї) в кошику"
@@ -2210,6 +2220,8 @@ Manually,Вручну
 "Static Blocks","Статичні блоки"
 "Add New Block","Додати новий блок"
 "Delete Block","Видалити блок"
+"Save and Continue Edit","Зберегти та продовжити редагування"
+"Save Block","Зберегти блок"
 Identifier,Ідентифікатор
 "Manage Pages","Управління сторінками"
 "Add New Page","Додати нову сторінку"
@@ -2218,7 +2230,10 @@ Identifier,Ідентифікатор
 Created,Створено
 Modified,Змінено
 "Media Storage",Медіасховище
+"Create Folder...","Створити папку..."
 "Delete Folder","Видалити папку"
+"Delete File","Видалити файл"
+"Insert File","Вставити файл"
 "New Folder Name:","Назва нової теки:"
 "Are you sure you want to delete this folder?","Ви справді хочете видалити цю теку?"
 "Are you sure you want to delete this file?","Ви впевнені, що хочете видалити цей файл?"
@@ -2231,6 +2246,7 @@ Modified,Змінено
 "New Block","Новий блок"
 Blocks,Блоки
 "You saved the block.","Ви зберегли блок."
+"Something went wrong while saving the block.","Щось пішло не так під час збереження блоку."
 "The page has been deleted.","Сторінка видалена."
 "We can't find a page to delete.","Ми не можемо знайти сторінку для видалення."
 "This page no longer exists.","Ця сторінка більше не існує."
@@ -2250,20 +2266,26 @@ Pages,Сторінки
 "We cannot delete directory %1.","Ми не можемо видалити каталог %1."
 "We can't upload the file right now.","Ми не можемо завантажити файл прямо зараз."
 "We can't delete root directory %1 right now.","Ми не можемо видалити кореневий каталог %1 прямо зараз."
+"No files found","Файлів не знайдено"
 "Media Gallery",Медіа-галерея
 "Content Management","Управління контентом"
+"CMS Home Page","CMS Головна сторінка"
+"CMS No Route Page","CMS Сторінка 404"
+"CMS No Cookies Page","CMS Сторінка No Cookies"
 "Show Notice if JavaScript is Disabled","Показувати сповіщення, коли JavaScript відключено"
 "Show Notice if Local Storage is Disabled","Показувати сповіщення, якщо локальне сховище відключено"
 "WYSIWYG Options","Параметри WYSIWYG"
 "Enable WYSIWYG Editor","Увімкнути WYSIWYG редактор"
 "CMS Page Link","Посилання на сторінку CMS"
 "CMS Page","CMS Сторінка"
+"Select Page...","Оберіть сторінку..."
 "Page Information","Інформація про сторінку"
 "Enable Page","Увімкнути сторінку"
 "New Layout","Нова розмітка"
 "Custom design from","Користувальницький дизайн з"
 "Custom design to","Користувальницький дизайн до"
 "Custom Layout","Користувацька розмітка"
+"Search Engine Optimisation","Оптимізація для пошукових систем"
 "Save & Duplicate","Зберегти та продублювати"
 "Delete Selected","Видалити вибране"
 "Create Folder","Створити теку"
@@ -2273,15 +2295,23 @@ Pages,Сторінки
 """identifiers"" of CMS blocks should be specified","Вкажіть « identifiers» для CMS блоків"
 """Page id should be specified","Потрібно вказати ідентифікатор сторінки"
 "The CMS block with the ""%1"" ID doesn't exist.","CMS блок з ідентифікатором ""%1"" не існує."
-"Search Engine Optimisation","Пошукова оптимізація (SEO)"
 "CMS Pages","CMS Сторінки"
 "Delete Customer","Видалити покупця"
+"Add New Company","Додати нову компанію"
+"Company Name:","Назва компанії:"
+"Company Legal Name:","Юридичне ім'я компанії:"
+"Street Address:",Вулиця:
 "Email Address:","Електронна пошта:"
 "First Name:",Ім'я:
 "Last Name:",Прізвище:
+Gender:,Стать:
+"New Company","Нова компанія"
 "Thank you! We're reviewing your request and will contact you soon","Дякую! Ми розглянемо ваш запит і зв'яжеться з вами найближчим часом"
 "A total of %1 record(s) were updated.","Загалом %1 запис(и/ів) було оновлено."
 "Add New Role","Додати нову роль"
+"Pending Approval","Очікує ухвалення"
+Rejected,Відхилено
+Blocked,Заблоковано
 "Invalid login or password.","Невірне ім\'я користувача або пароль."
 "Something went wrong","Щось пішло не так"
 test,тест
@@ -2293,6 +2323,7 @@ Contacts,Контакти
 "Save Role","Зберегти роль"
 "Create an Account","Створити обліковий запис"
 "When you sign in to your account, you will be able to:","Після входу у ваш акаунт, ви зможете:"
+"Edit User","Редагувати користувача"
 "View orders","Переглянути замовлення"
 Comment,Коментар
 Gender,Стать
@@ -2319,8 +2350,8 @@ Date,Дата
 "Payment Information (View)","Відомості про оплату (Крамниця)"
 "Use config settings","Використовувати налаштування конфігурації"
 "Save Config","Зберегти конфігурацію"
+"Use system value","Системне значення"
 Add,Додати
-"Delete File","Видалити файл"
 "Search String","Рядок пошуку"
 "Design Theme","Дизайн Теми"
 "%1 should implement %2","%1 повинні впроваджувати %2"
@@ -2351,7 +2382,10 @@ Confirm,Підтвердити
 "New Attribute Set Name","Нове ім'я для Набору Атрибутів"
 "Select Associated Product","Виберіть пов'язані продукти"
 Weight,Вага
+"Disable Product","Вимкнути товар"
+"Enable Product","Увімкнути товар"
 save,зберегти
+"As low as: ","Від: "
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Дякуємо Вам за те, що поділились з нами Вашою думкою чи задали додаткове Запитання. Ми спробуємо відповісти Вам якомога швидше."
 "An error occurred while processing your form. Please try again later.","Сталася помилка під час обробки вашої форми. Будь ласка, спробуйте ще раз пізніше."
 "Write Us","Напишіть нам"
@@ -2415,15 +2449,21 @@ Never,Ніколи
 "You saved the address.","Ви зберегли адресу."
 "You deleted the customer group.","Ви видалили групу покупців."
 "The customer group no longer exists.","Група покупців вже не існує."
+"New Group","Нова група"
 "New Customer Groups","Нові групи покупців"
+"Edit Group","Редагувати групу"
 "Edit Customer Groups","Редагувати групи покупців"
 "You saved the customer group.","Ви зберегли групу покупців."
 "Customers Now Online","Покупці онлайн"
+"No confirmation needed.","Підтвердження не потрібне."
+"Account already active","Обліковий запис вже активний"
+"The account is locked.","Обліковий запис заблоковано."
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Мінімум різних елементів у паролі повинна бути %1. Можна використовувати: літери у нижньому регістрі, верхньому регістрі, цифри, спеціальні символи."
 "Customer Group already exists.","Така група покупців вже існує."
 Male,Чоловік
 Female,Жінка
 Label,Етикетка
+Visitor,Відвідувач
 "Personal Information","Персональна інформація"
 "Customer Group:","Група покупців:"
 "Default Billing Address","Адреса виставлення рахунка за промовчанням"
@@ -2438,6 +2478,7 @@ Newsletters,"Розсилки новин"
 "Change Shipping Address","Змінити адресу доставки"
 "You have no default shipping address in your address book.","У Вас немає адреси доставки за промовчанням у Вашій адресній книзі."
 "Additional Address Entries","Додаткові адреси"
+"Street Address %1","Вулиця %1"
 "It's a default billing address.","Це адреса виставлення рахунка за промовчанням."
 "Use as my default billing address","Використовувати як мою адресу виставлення рахунка за промовчанням"
 "It's a default shipping address.","Це адреса доставки за промовчанням."
@@ -2481,6 +2522,7 @@ Strong,Сильний
 "All Customers","Всі покупці"
 "Now Online","Зараз онлайн"
 "Enable Automatic Assignment to Customer Group","Увімкнути автоматичне присвоєння групи покупцю"
+"Number of Lines in a Street Address","Кількість рядків у поштових адресах"
 "Redirect Customer to Account Dashboard after Logging in","Після входу в систему перенаправити клієнта на панель управління в акаунті"
 "Assign a Customer Group","Назначити групу покупців"
 Group,Група
@@ -2488,6 +2530,11 @@ Group,Група
 "Unsubscribe from Newsletter","Відписатися від розсилки новин"
 "Edit Account Information","Редагувати обліковий запис"
 "More information",Детальніше
+"Your balance is:","Ваш баланс:"
+"Maximum Image Width (px)","Максимальна ширина зображення (px)"
+"Maximum Image Height (px)","Максимальна висота зображення (px)"
+"Minimal value","Мінімальне значення"
+"Maximum value","Максимальне значення"
 "This is your default billing address.","Це Ваша адреса виставлення рахунка за промовчанням."
 "This is your default shipping address.","Це Ваша адреса доставки за промовчанням."
 "Current customer does not have access to the resource ""%1""","Поточний клієнт не має доступу до ресурсу ""%1"""
@@ -2528,10 +2575,15 @@ Width,Ширина
 "Weight Unit","Одиниця ваги"
 Size,Розмір
 kgs,кг
+"FATAL ERROR:","КРИТИЧНА ПОМИЛКА:"
+WARNING:,ПОПЕРЕДЖЕННЯ:
 "Currency Setup","Налаштування валюти"
 "Base Currency","Основна валюта"
 "Default Display Currency","Відображувана валюта за умовчанням"
 "Allowed Currencies","Дозволені валюти"
+"Zip/Postal Code is Optional for","Поштовий індекс не обов'язковий для"
+"API Key","API ключ"
+"The country isn't available.","Країна недоступна."
 "My Downloadable Products","Мої завантажувані товари"
 Links,Посилання
 "Go to <a href=""%1"">My Downloadable Products</a>","Перейти до <a href=""%1""> Мої завантажувані товари</a>"
@@ -2539,11 +2591,22 @@ Links,Посилання
 "You have not purchased any downloadable products yet.","Ви ще не придбали жодних завантажуваних товарів."
 Downloads,Завантаження
 Unlimited,Необмежено
+"Letters (a-z, A-Z) or Numbers (0-9)","Літери (a-z, A-Z), або цифри (0-9)"
+"Text Field","Текстове поле"
+Yes/No,Так/Ні
+"Cannot save attribute","Не вдалося зберегти атрибут"
+"Cannot delete attribute.","Не вдалося видалити атрибут."
+"Invalid date","Некоректна дата"
+"Cannot save attribute %1","Не вдалося зберегти атрибут %1"
+"AttributeSet does not exist.","Набір атрибутів не існує."
+"The ""%1"" attribute can't be saved.","Атрибут ""%1"" не може бути збережений."
+"Text Editor","Текстовий редактор"
 """Entity type should be specified","""Тип сутності повинен бути вказаний"
 """Attribute code should be specified","""Код атрибута повинен бути вказаний"
 "Invalid entity_type specified: %1","Вказано невірний entity_type: %1"
 "Missing %1 for the input %2.","Відсутній %1 для вводу %2."
 "Cannot resolve EAV type","Не вдалося визначити тип EAV"
+"Test Connection","Перевірити з'єднання"
 "Add New Template","Додати новий шаблон"
 "Transactional Emails","Транзакційні листи"
 "Delete Template","Видалити шаблон"
@@ -2576,6 +2639,9 @@ Unknown,Невідомо
 "An error occurred. The email template can not be opened for preview.","Сталася помилка. Не вдається відкрити шаблон листа для попереднього перегляду."
 "This email template no longer exists.","Цього шаблону більше не існує."
 "You saved the email template.","Ви зберегли шаблон листа."
+"Store Phone Number","Номер телефону Магазину"
+"Street Address 1",Вулиця
+"Street Address 2","Вулиця 2"
 "Template Variables","Змінні шаблону"
 "Please enter a template name.","Будь ласка, введіть назву шаблону."
 "Duplicate Of Template Name","Дублювати назву шаблону"
@@ -2583,6 +2649,8 @@ Unknown,Невідомо
 "Requested invalid store ""%1""","Запитано недійсний магазин ""%1"""
 """file"" parameter must be specified","Необхідно вказати параметр ""file"""
 """file"" parameter must be specified and must not be empty","Параметр ""file"" повинен бути вказаним і не повинен бути пустим"
+"Logo Width","Ширина логотипу"
+"Logo Height","Висота логотипу"
 "Change Encryption Key","Змінити ключ шифрування"
 "Encryption Key","Ключ шифрування"
 "New Encryption Key","Новий ключ шифрування"
@@ -2716,6 +2784,7 @@ Unsubscribe,Відписатися
 Subscribed,Підписаний
 "Newsletter Subscriptions","Підписки на розсилку новин"
 "Built-in Cache","Вбудований кеш"
+"All Allowed Countries","Всі дозволені країни"
 "Please enter a valid credit card verification number.","Будь ласка, введіть правильний номер перевірки кредитної картки."
 "Please enter a valid credit card number.","Будь ласка, введіть правильний номер кредитної карти."
 "Billing Agreements","Білінгові угоди"
@@ -2819,13 +2888,21 @@ Rating,Рейтинг
 "Please select one of each of the ratings above.","Будь ласка, виберіть один з рейтингів вище."
 "Signed up for newsletter with email %1","Підписано на розсилку новин з електронною поштою %1"
 First,Перший
+Returns,Повернення
+"Create Returns","Створити повернення"
 "Submit Comment","Надіслати коментар"
+"Submit Returns","Підтвердити повернення"
+"Add Selected Product(s) to returns","Додати обрані товари до повернення"
+"My Returns","Мої повернення"
 "Order # ","Замовлення # "
+"You have placed no returns.","У вас не було повернень."
 "Please specify Customer Groups.","Будь ласка, визначте групу покупців."
+"Credit Memos","Повернення коштів"
 Invoices,Рахунки
 "Are you sure you want to cancel this order?","Ви впевнені, що хочете скасувати це замовлення?"
 "Items Ordered","Замовлені позиції"
 "Last Ordered Items","Останні замовлені позиції"
+"Comments History","Історія коментарів"
 "Order History","Історія замовлень"
 "Order Information","Відомості про замовлення"
 Transactions,"Платіжні операції"
@@ -2957,6 +3034,7 @@ Columns,Стовпці
 Category:,Категорія:
 "CMS page:","CMS Сторінка:"
 "For CMS page","Для CMS сторінки"
+"To resolve this conflict, you can either change the value of the URL Key field (located in the Search Engine Optimization section) to a unique value, or change the Request Path fields in all locations listed below:","Для вирішення цього конфлікту, ви можете змінити значення поля URL Key (розташованого в розділі Оптимізація для пошукових систем) на унікальне значення, або змінити поля Request Path у всіх розташуваннях, перерахованих нижче:"
 "Delete Role","Видалити роль"
 Roles,Ролі
 "Save User","Зберегти користувача"
