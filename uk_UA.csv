@@ -427,8 +427,8 @@ Customer,Покупець
 Guest,Гість
 Items,Елементи
 Total,Загалом
-"Lifetime Sales","Довічні Продажі"
-"Average Order","Середнє Замовлення"
+"Lifetime Sales","Продажі за весь час"
+"Average Order","Середній чек"
 Average,Середній
 Views,Перегляди
 Revenue,Прибуток
@@ -626,7 +626,7 @@ password,пароль
 "There are no search keywords.","Немає таких ключових слів."
 "View Statistics For:","Переглянути Статистику Для:"
 "All Websites","Всі Веб-сайти"
-"Reload Data","Перезавантажити Дані"
+"Reload Data","Оновити дані"
 "Browse Files...","Перегляд Файлів..."
 "Copyright &copy; %1 Magento Commerce Inc. All rights reserved.","Авторське право &copy; %1 Magento Commerce Inc. Всі права захищені."
 "Magento Admin Panel","Панель Адміністрування Magento"
@@ -683,10 +683,11 @@ Loading...,Завантаження...
 Marketing,Маркетинг
 "SEO & Search","SEO та Пошук"
 "User Content","Контент Користувача"
-Content,Вміст
+Content,Контент
 Elements,Елементи
 Design,Дизайн
 Schedule,Розклад
+"Content translation","Переклад контенту"
 Settings,Налаштування
 Attributes,Атрибути
 "Other Settings","Інші Налаштування"
@@ -734,8 +735,8 @@ Developer,Розробник
 "Locale Options","Опції Локалізації"
 Timezone,"Часовий пояс"
 Locale,Локалізація
-"First Day of Week","Перший День Тижня"
-"Weekend Days","Вихідні Дні"
+"First Day of Week","Перший день тижня"
+"Weekend Days","Вихідні дні"
 "Store Name","Назва Магазину"
 "Store Phone Number","Номер Телефону Магазину"
 "Store Hours of Operation","Часи Роботи Магазину"
@@ -826,7 +827,15 @@ Pagination,Пагінація
 "Anchor Text for Previous","Anchor Text для Попереднього"
 "Anchor Text for Next","Anchor Text для Наступного"
 "Theme Name","Назва теми"
+"Page not found.","Сторінку не знайдено."
+"For Windows server only.","Тільки для Windows server."
+"Maximum Width","Максимальна ширина"
+"Maximum allowed width for uploaded image.","Максимальна дозволена ширина для завантаженого зображення."
+"Maximum Height","Максимальна висота"
 "If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Якщо не вказати жодного значення, буде використане системне за замовчуванням. Системне за замовчуванням може бути змінен сторонніми екстеншинами."
+"Save &amp; Continue","Зберегти та продовжити"
+"Save &amp; Close","Зберегти та закрити"
+"Save &amp; New","Зберегти та створити"
 "System Backup","Резервне копіювання системи"
 "Database and Media Backup","Резервне копіювання бази даних та медіа"
 "Database Backup","Резервне копіювання бази даних"
@@ -895,6 +904,10 @@ Frequency,Частота
 Size(bytes),Розмір(байти)
 Type,Тип
 Download,Завантажити
+Banners,Банери
+"Add Banner","Додати банер"
+"Save Banner","Зберегти банер"
+"Delete Banner","Видалити банер"
 "Save and Continue Edit","Зберегти та Продовжити Редагування"
 "Default Content","Типовий вміст"
 "No Default Content","Без типового вмісту"
@@ -908,10 +921,21 @@ Active,Активний
 Inactive,Неактивний
 "Applies To","Застосовується до"
 "Specify Types","Вкажіть типи"
+"Banner Type","Тип банера"
 Visibility,Видимість
+"Are you sure you want to delete these banners?","Ви дійсно бажаєте видалити ці банери?"
+"Related Banners","Споріднені банери"
 Position,Позиція
 "This rule no longer exists.","Цього правила більше не існує."
+"This banner does not exist.","Цей банер не існує."
+"You deleted the banner.","Ви видалили банер."
+"We cannot find a banner to delete.","Ми не можемо знайти банер для видалення."
+"This banner no longer exists.","Цей банер більше не існує."
+"Edit Banner","Редагувати банер"
+"Please select a banner(s).","Будь ласка, виберіть банер(и)."
 "You deleted %1 record(s).","Ви видалили %1 запис(и/ів)."
+"You saved the banner.","Ви зберегли банер."
+"We cannot save the banner.","Ми не можемо зберегти банер."
 "Please enter a name.","Будь ласка, введіть назву."
 "-- None --","-- Нічого --"
 "Content Area","Місце для контенту"
@@ -932,6 +956,7 @@ Header,"Верхній колонтитул"
 "Dynamic Block Default Content for All Store Views","Динамічний блок типовий вміст для всіх вітрин"
 "Dynamic Block Properties","Властивості динамічного блоку"
 "You deleted the dynamic block.","Ви видалили динамічний блок."
+Remove,Видалити
 "All Segments","Всі сегменти"
 "Customer Segment","Сегмент клієнта"
 "Allowed Credit Card Types","Допустимі Типи Кредитних Карток"
@@ -947,6 +972,7 @@ Authorize,Авторизувати
 ending,закінчується
 expires,закінчується
 "Please agree to all the terms and conditions before placing the order.","Буль-ласка, погодьтеся з усіма правилами та умовами перед тим як розмістити замовлення."
+"Transaction was failed.","Не вдалося виконати транзакцію."
 "Please, enter valid Credit Card Number","Будь-ласка, введіть діючий Номер Кредитної Картки"
 "Please, enter valid Expiration Date","Будь-ласка, введіть дісну Дату Збігання"
 "Please, enter valid Card Verification Number","Будь-ласка, введіть дійсний Номер Підтвердження Картки"
@@ -988,6 +1014,8 @@ YY,РР
 Phone,Телефон
 URL,URL-АДРЕСА
 "Company is too long.","Компанія є надто довгою."
+"First name is too long.","Ім'я занадто довге."
+"Last name is too long.","Прізвище занадто довге."
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Застосувати фільтри для того, щоб отримати результат. Тільки перші 100 записів будуть відображені у таблиці, у Вас буде змога завантажити повну версію звіту у форматі .csv."
 Select...,Виберіть...
 "Transaction Type","Тип Транзакції"
@@ -1067,6 +1095,7 @@ State/Province,Штат/Область
 "Your Kount ID","Ваш ідентифікатор Kount"
 "Use Cache","Використовувати кеш"
 "Edit My Credit Cards","Редагувати Мої Кредитні Картки"
+"Pay with PayPal","Сплатити за допомогою PayPal"
 "Paypal account","Обліковий запис PayPal"
 "Coinbase account","Обліковий запис Coinbase"
 "Europe bank account","Банківський рахунок Europe"
@@ -1104,7 +1133,7 @@ Fixed,Фіксована
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Товар із вказаним артикулом: ""%1"" не містить опцію: ""%2"""
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Дочірній із вказаним артикулом: ""%1"" уже призначений товарові: ""%2"""
 "Price Range","Ціновий діапазон"
-"As Low as","Починаючи з"
+"As Low as",Від
 Together,Разом
 Separately,Порізно
 "Please specify product option(s).","Будь ласка, вкажіть опцію(ї) товару."
@@ -1140,7 +1169,7 @@ Invoiced,"Виставлено рахунок"
 Shipped,Відправлено
 Refunded,Повернено
 Canceled,Скасовано
-"As low as","Починаючи з"
+"As low as",Від
 "Regular Price","Звичайна ціна"
 "Buy %1 with %2 discount each","Купити %1 зі знижкою %2 кожний"
 "Go back to product details","Повернутися до подробиць товару"
@@ -1189,12 +1218,15 @@ Forms,Форми
 "Case Sensitive","Чутливе до регістру"
 "Enable CAPTCHA on Storefront","Увімкнути CAPTCHA на Вітрині"
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Якщо вибрано, то CAPTCHA завжди увімкнений для форм ""Створити користувача"" та ""Забули пароль""."
+"Please type the letters below","Будь ласка, введіть літери нижче"
 Root,Корінь
 "Use Config Settings","Використовувати значення за замовчуванням"
 "Use All Available Attributes","Використовувати всі доступні атрибути"
 "Add Subcategory","Додати підкатегорію"
 "Add Root Category","Додати кореневу категорію"
 Day,День
+"<label class=""label""><span>from</span></label>","<label class=""label""><span>від</span></label>"
+"<label class=""label""><span>to</span></label>","<label class=""label""><span>до</span></label>"
 "WYSIWYG Editor","WYSIWYG Редактор"
 "Add Product","Додати товар"
 label,етикетка
@@ -1439,6 +1471,7 @@ Category,Категорія
 "The filter must be an object. Please set the correct filter.","Фільтр повинен бути об'єктом. Будь ласка, задайте коректний фільтр."
 "Clear Price","Очистити ціну"
 "%1 and above","%1 та вище"
+"The filters must be an array.","Фільтри повинні бути масивом."
 "Group price must be a number greater than 0.","Групова ціна має бути числом, більшим за 0."
 "Media Gallery converter should be an instance of EntryConverterInterface.","Перетворювач медіа-галереї має бути екземпляром EntryConverterInterface."
 "There is no MediaGalleryEntryConverter for given type","Немає MediaGalleryEntryConverter для заданого типу"
@@ -1452,6 +1485,8 @@ Category,Категорія
 "Use config","Використати конфігурацію"
 "Attribute Set already exists.","Набір атрибутів вже існує."
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","Ми не змогли скопіювати файл %1. Будь ласка, видаліть медіа з неіснуючими зображеннями та повторіть спробу."
+"Cannot save product.","Неможливо зберегти товар."
+"The image does not exist.","Зображення не існує."
 "The option type to get group instance is incorrect.","Ти опції для отримання групового екземпляру є некоректний."
 "Select type options required values rows.","Виберіть рядки необхідних значень опцій типу."
 "Please specify date required option(s).","Будь ласка, вкажіть необхідну(і) опцію(ї) дати."
@@ -1470,6 +1505,7 @@ px.,пікс.
 "The file '%1' is invalid. Please choose another one","Файл '%1' є непридатним. Будь ласка, оберіть інший"
 "File '%1' is not an image.","Файл '%1' не є зображенням."
 "Some of the selected item options are not currently available.","Деякі з вибраних опцій позиції наразі недоступні."
+"The text is too long.","Текст занадто довгий."
 "Could not save Prices.","Не вдалося зберегти ціни."
 "Could not delete Prices","Не вдалося видалити ціни"
 "Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Запитуваного магазина не знайдено. ID рядка: SKU = %SKU, ID магазина: %storeId, Ціна від: %priceFrom, Ціна до: %priceTo."
@@ -1596,7 +1632,7 @@ Role,Роль
 "Buy %1 for: ","Придбати %1 за: "
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Придбати %1 по %2 за одиницю та <strong class=""benefit"">заощадити<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
 "Buy %1 for %2 each","Придбати %1 по %2 за одиницю"
-"Shop By","Продукція за"
+"Shop By",Фільтр
 "Shopping Options","Варіанти товарів"
 "Compare Products","Порівняти товари"
 "Print This Page","Розрудукувати цю сторінку"
@@ -1736,6 +1772,7 @@ Set,Встановити
 "Category Information","Інформація щодо категорії"
 "Enable Category","Увімкнути категорію"
 "Include in Menu","Включити до Меню"
+Content,Вміст
 "Category Image","Зображення категорії"
 "Add CMS Block","Додати CMS-блок"
 "Display Settings","Налаштування показу"
@@ -1777,12 +1814,22 @@ Overview,Огляд
 "Add To Compare","Додати до порівняння"
 "Learn more","Дізнатися більше"
 "Recently Viewed","Нещодавно переглянуті"
+"Save Category","Зберегти категорію"
+"Delete Category","Видалити категорію"
+"New Subcategory","Нова підкатегорія"
+"New Root Category","Нова коренева категорія"
+"Set Root Category for Store","Встановити кореневу категорію для магазина"
+"Images and Videos","Зображення та відео"
+"Click here or drag and drop to add images.","Клацніть тут або перетягніть сюди щоб додати зображення."
 "Are you sure you want to delete this category?","Ви впевнені, що хочете видалити цю категорію?"
 from,від
 to,до
 "The attribute couldn't be saved due to an error. Verify your information and try again. If the error persists, please try again later.","Не вдалося зберегти атрибут із-за помилки. Перевірте вашу інформацію і повторіть спробу. Якщо помилка не зникне, будь ласка, спробуйте пізніше."
+Quality,Якість
 "The ""%1"" attribute is required. Enter and try again.","Атрибут ""%1"" є обов'язковим. Введіть і повторіть спробу."
 "Attributes were missing and must be specified.","Атрибути відсутні, і вони повинні бути вказані."
+"The product can't be saved.","Неможливо зберегти товар."
+"The product doesn't exist. Verify and try again.","Товар не існує. Перевірте та повторіть спробу."
 "Edit Event","Редагувати подію"
 "Add Event","Додати подію"
 Events,Події
@@ -1860,6 +1907,7 @@ End,Закінчення
 "Every option entity must have a parent product entity.","Кожний об'єкт опції повинен мати батьківський об'єкт товару."
 "Please correct the parameters.","Будь ласка, виправте параметри."
 "File '%1' was not found or has read restriction.","Файл '%1' не знайдено або він має обмеження щодо читання."
+"Disallowed file type.","Заборонений тип файлу."
 "Minimum Qty","Мінімальна кіл-ть"
 "Add Minimum Qty","Додати мінімальну кіл-ть"
 "Could not rebuild index for empty products array","Не вдалося перебудувати індекс для порожнього масиву продуктів"
@@ -1951,6 +1999,8 @@ Promotions,Заохочення
 "Rule Name","Назва правила"
 Priority,Пріоритет
 "Discard subsequent rules","Скасувати наступні правила"
+"Edit Rule '%1'","Редагувати правило '%1'"
+"General Information","Загальна інформація"
 "Scheduled Changes","Заплановані зміни"
 "Update Information","Оновити інформацію"
 "Remove Catalog Price Rule from Update","Видалити правило цін каталога з оновлення"
@@ -2208,7 +2258,6 @@ Pages,Сторінки
 "Enable WYSIWYG Editor","Увімкнути WYSIWYG редактор"
 "CMS Page Link","Посилання на сторінку CMS"
 "CMS Page","CMS Сторінка"
-"General Information","Загальна інформація"
 "Page Information","Інформація про сторінку"
 "Enable Page","Увімкнути сторінку"
 "New Layout","Нова розмітка"
@@ -2276,15 +2325,20 @@ Add,Додати
 "Design Theme","Дизайн Теми"
 "%1 should implement %2","%1 повинні впроваджувати %2"
 "Invalid %1. %2","Неприпустимий %1. %2"
+"Default display currency ""%1"" is not available in allowed currencies.","Відображувана валюта за умовчанням ""%1"" відсутня у списку дозволених валют."
 "Sorry, we haven't installed the base currency you selected.","На жаль, вибрана, вами валюта, не встановлена."
-"Sorry, we haven't installed the default display currency you selected.","Нажаль, ми не встигли встановити типову валюту, обрану вами."
+"Sorry, we haven't installed the default display currency you selected.","На жаль, обрана вами відображувана валюта за умовчанням не встановлена."
 "The file you're uploading exceeds the server size limit of %1 kilobytes.","Файл, що був вами завантажений, перевищую допустиму межу в %1 кбт."
 "Default scope","Область використання за замовчуванням"
 "Base currency","Основна валюта"
+"Display default currency","Відображувана валюта за умовчанням"
 title,назва
+"Yes (302 Found)","Так (302 Found)"
+"Yes (301 Moved Permanently)","Так (301 Moved Permanently)"
 "Some error","Деяка помилка"
 "Tab Label","Етикетка таби"
 "Design Section","Дизайн секції"
+"Currency Setup Section","Розділ Налаштування валюти"
 "Email to a Friend","Надіслати другу"
 "Product with assigned super attributes should not have specified ""%1"" value","Продукт із присвоєними супер-атрибутами не повинен містити значення ""%1"""
 "Choose existing Attribute Set","Виберіть наявний Набір Атрибутів"
@@ -2319,6 +2373,8 @@ save,зберегти
 Daily,Щоденно
 Weekly,Щотижневий
 Monthly,Щомісячно
+"Save Currency Symbols","Зберегти символи валют"
+"Currency Symbols","Символи валют"
 "You are subscribed to our newsletter.","Ви підписалися на нашу розсилку новин."
 "You aren't subscribed to our newsletter.","У Вас немає підписки на розсилку новин."
 "You have not set a default shipping address.","Ви не налаштували адресу доставки за промовчанням."
@@ -2469,8 +2525,13 @@ cm,см
 Depth,Глибина
 Width,Ширина
 "Account Number","Номер акаунту"
+"Weight Unit","Одиниця ваги"
 Size,Розмір
 kgs,кг
+"Currency Setup","Налаштування валюти"
+"Base Currency","Основна валюта"
+"Default Display Currency","Відображувана валюта за умовчанням"
+"Allowed Currencies","Дозволені валюти"
 "My Downloadable Products","Мої завантажувані товари"
 Links,Посилання
 "Go to <a href=""%1"">My Downloadable Products</a>","Перейти до <a href=""%1""> Мої завантажувані товари</a>"
@@ -2673,9 +2734,9 @@ Help,Допомога
 "Edit Product Price","Редагувати ціни товару"
 Price:,Ціна:
 Url,URL-адреса
-"Images and Videos","Зображення та відео"
 "Images And Videos","Зображення та відео"
 "Edit Catalog Price Rules","Редагувати правила цін каталогу"
+"File must be in .csv format and include ""SKU"" and ""QTY"" columns","Файл повинен бути в форматі .csv і містити стовпці ""SKU"" і ""QTY"""
 "Shipping & Handling (%1)","Доставка та оброблення (%1)"
 "Minimum order amount is %1","Мінімальна сума замовлення становить %1"
 "Shopping cart error: %message","Помилка кошика: %message"
@@ -2872,7 +2933,11 @@ Page,Сторінка
 "Default Meta Keywords","Meta ключові слова за замовчуванням"
 Menu,Меню
 Account,"Обліковий запис"
+"2 columns with left bar","2 стовпчики з панеллю зліва"
+"2 columns with right bar","2 стовпчики з панеллю справа"
+"3 columns","3 стовпчики"
 Translations,Переклади
+Filters,Фільтри
 On,Увімк.
 Off,Вимк.
 "Please enter {0} words or less.","Будь ласка, введіть {0} слів або менше."
@@ -2886,6 +2951,9 @@ Off,Вимк.
 "Please enter a valid date.","Будь ласка, вкажіть правильну дату."
 "Please enter a valid zip code.","Введіть правильний поштовий індекс."
 "Please select State/Province.","Будь ласка, виберіть область."
+Columns,Стовпці
+"Active filters:","Активні фільтри:"
+"Apply Filters","Застосувати фільтри"
 Category:,Категорія:
 "CMS page:","CMS Сторінка:"
 "For CMS page","Для CMS сторінки"
