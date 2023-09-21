@@ -232,6 +232,7 @@ Uses,Використовує
 "Redirect URL","URL перенаправлення"
 "Suggested Term","Запропонований вираз"
 Yes,Так
+Synonym,Синонім
 "RPC call failed, connection timed out after %time_out.","RPC виклик невдалий, час підключення вичерпано після %time_out."
 "Message has been rejected: %1","Повідомлення було відхилене: %1"
 "Error while checking if topic is synchronous","Помилка під час перевірки чи тема є синхронною"
