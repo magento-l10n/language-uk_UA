@@ -3433,6 +3433,21 @@ Attention,Увага
 "Log JS Errors to Session Storage Key","Ключ браузерного Session Storage для запису помилок JavaScript"
 "settings/confirm/message
                         ","settings/confirm/message                        "
+"
+                        formElements/*[name(.)=../../@formElement]/settings/description
+                    ","
+                        formElements/*[name(.)=../../../@formElement]/settings/description
+                    "
+"
+                        formElements/*[name(.)=../../@formElement]/settings/caption
+                    ","
+                        formElements/*[name(.)=../../../@formElement]/settings/caption
+                    "
+"
+                        formElements/*[name(.)=../../@formElement]/settings/title
+                    ","
+                        formElements/*[name(.)=../../../@formElement]/settings/caption
+                    "
 settings/required,settings/breakLine
 settings/addAfter,settings/addBefore
 "Initialization error component, check the spelling of the name or the correctness of the call.","Помилка ініціалізації, перевірте написання імені чи коректність виклику."
