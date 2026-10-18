@@ -253,14 +253,23 @@ Synonym,Синонім
 "Error while checking if topic is synchronous","Помилка під час перевірки чи тема є синхронною"
 "Subscription status","Статус підписки"
 "Sorry, there has been an error processing your request. Please try again later.","На жаль, сталась помилка під час обробки вашого запиту. Будь ласка, спробуйте пізніше."
+"Time value has an unsupported format","Формат значення часу не підтримується"
 "Cron settings can't be saved","Налаштування для крону не можуть бути збережені"
 "There was an error save new configuration value.","Помилка під час збереження конфігурації."
+"Please select a vertical.","Будь ласка, виберіть вертикаль."
 "--Please Select--","--Виберіть, будь ласка--"
+"Command was not found.","Команда не знайдена."
+"Input data must be string or convertible into string.","Вхідні дані повинні бути рядками або конвертованими у рядок."
+"Input data must be non-empty string.","Вхідні дані повинні бути не пустими."
+"Not valid cipher method.","Недійсний метод шифрування."
+"Encryption key can't be empty.","Ключ шифрування не може бути порожнім."
+"Source ""%1"" is not exist","Джерело ""%1"" не існує"
 "These arguments can't be empty ""%1""","Ці аргументи не можуть бути порожніми: ""%1"""
 "Cannot find predefined integration user!","Не вдалося знайти попередньо визначеного користувача інтеграції!"
 "File is not ready yet.","Файл ще не готовий."
 "Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","Ваша базова URL-адреса була змінена, і ваші звіти оновлюються. Розширене повідомлення буде доступне щойно ця зміна буде оброблена. Будь ласка, спробуйте ще раз пізніше."
 "Failed to synchronize data to the Magento Business Intelligence service. ","Не вдалося синхронізувати дані до сервісу Magento Business Intelligent. "
+"<a href=""%1"">Retry Synchronization</a>","<a href=""%1"">Повторити синхронізацію</a>"
 TestMessage,"Тестове повідомлення"
 "Apps and Games","Програми та Ігри"
 "Athletic/Sporting Goods","Атлетика/Спортивні товари"
@@ -272,6 +281,13 @@ Analytics,Аналітика
 Configuration,Налаштування
 "Business Intelligence",Бізнес-аналітика
 "BI Essentials","Основи бізнес-аналітики"
+"This service provides a dynamic suite of reports with rich insights about your business.
+                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
+                ""Go to Advanced Reporting"" link. </br> For more information, see our <a href=""https://magento.com/legal/terms/cloud-terms"">
+                terms and conditions</a>.","Ця служба надає динамічний набір звітів з багатими уявленнями про ваш бізнес.
+                Ваші звіти можуть безпечно бути отримані в персоналізованій панелі керування за межами панелі адміністратора за посиланням
+                ""Перейти до розширеної звітності"". </br> Для отримання додаткової інформації, дивіться наші <a href=""https://magento.com/legal/terms/cloud-terms"">
+                терміни та умови</a>."
 "Advanced Reporting Service","Сервіс розширеної звітністі"
 "Time of day to send data","Час доби для надсилання даних"
 Industry,Галузь
@@ -1319,9 +1335,11 @@ Forms,Форми
 "Number of Symbols","Кількість символів"
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Будь ласка, вкажіть щонайбільше 8 символів. Дозволений діапазон (наприклад, 3-5)"
 "Symbols Used in CAPTCHA","Символи, що використовуються в CAPTCHA"
+"Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.","У цьому полі вводьте лише літери (a–z або A–Z) або цифри (0–9). Пробіли та інші символи не допустимі.<br />Символи, схожі на інші (наприклад, «i», «l», «1»), знижують ймовірність правильного розпізнавання клієнтом."
 "Case Sensitive","Чутливе до регістру"
 "Enable CAPTCHA on Storefront","Увімкнути CAPTCHA на Вітрині"
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Якщо вибрано, то CAPTCHA завжди увімкнений для форм ""Створити користувача"" та ""Забули пароль""."
+"Please enter the letters from the image","Будь ласка, введіть літери із зображення"
 "Please type the letters below","Будь ласка, введіть літери нижче"
 Root,Корінь
 "Use Config Settings","Використовувати значення за замовчуванням"
